@@ -19,10 +19,10 @@ import static padll.Main.DRUGS;
  * @author Yaw's PC
  */
 public class Integrator {
-    public static final String PATH = "C:\\Users\\Yaw's PC\\Documents\\NETPHIX\\data\\";
-    public static final String PATH3 = "C:\\Users\\Yaw's PC\\Documents\\CADEGA\\predata\\";
-    public static final String PATH5 = "C:\\Users\\Yaw's PC\\Documents\\CADEGA\\drugs\\";
-    public static final String PATH6 = "C:\\Users\\Yaw's PC\\Documents\\CADEGA\\network\\";
+    public static final String PATH = "";
+    public static final String PATH3 = "..\\predata\\";
+    public static final String PATH5 = "..\\drugs\\";
+    public static final String PATH6 = "";
     
     
     public static void main (String[] args) throws IOException {
@@ -209,6 +209,7 @@ public class Integrator {
         return ret;
     }
 
+    // one-time operation on STRING Database, do not use without changing PATH
     private static void stripNetwork() throws FileNotFoundException, IOException {
         File f = new File(PATH + "HumanStringNet.txt");
             Scanner sc = new Scanner(f);

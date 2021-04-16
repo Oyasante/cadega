@@ -15,7 +15,7 @@ To run a CADEGA analysis, currently one will have to run the subsets of data sep
 - PADLL.Main([drugset])
 
 (from Linux)
-- ./netmix.sh ../network.tsv ../inputs/CDInput##.tsv test/outputfile.txt
+- ./netmix.sh ../network/network.tsv ../inputs/CDInput##.tsv test/outputfile.txt
 
 ## On Inputs
 The network.tsv is a gene-to-gene interaction network from the STRING database, all with significance ratings at or above 0.9.

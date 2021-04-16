@@ -20,10 +20,10 @@ public class Main {
     
     public static final String SIGIL = "1";
     /*     */
-    public static final String PATH = "C:\\Users\\Yaw's PC\\Documents\\NETPHIX\\data\\";
-    public static final String PATH2 = "C:\\Users\\Yaw's PC\\Documents\\NETPHIX\\";
-    public static final String PATH4 = "C:\\Users\\Yaw's PC\\Documents\\CADEGA\\inputs\\";
-    public static final String PATH5 = "C:\\Users\\Yaw's PC\\Documents\\CADEGA\\drugs\\";
+    public static final String PATH = "..\\NETPHIX\\data\\";
+    public static final String PATH2 = "..\\NETPHIX\\";
+    public static final String PATH4 = "..\\inputs\\";
+    public static final String PATH5 = "..\\drugs\\";
     
     public static final String ALTERATION = "AlterationsV2_final.txt\\AlterationsV2_clean.txt";
     public static final String[] DRUGS = {"Drug01","Drug02","Drug03","Drug04","Drug05","Drug06"};
